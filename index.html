@@ -2,29 +2,44 @@
 <html>
     <head>
         <link rel="stylesheet" href="./insta.css" type="text/css">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+        <script src="./insta.js"></script>
     </head>
     <body>
-        <div>
+        <div id="top">
             <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png">
             <input type="search" value="검색">
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
         <div id="profile">
             <div id="profile_pic"> 
                 <img src="http://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg" class="circle_pic">
             </div>
-            <div>
-                jeongtae1<br/>
+            <div id="profile_info">
+                <div id="id">
+                    <span>jeongtae1</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
         <div>
-            손정태 (Jeongtae Son)<br/>
-        </div>
-        <div>
-            작가<br/>
-        </div>
-        <div>
-            <a href="https://github.com/jeongtae1">https://github.com/jeongtae1</a>
+            <p>
+                <strong id="userInfo">
+                    손정태 (Jeongtae Son)
+                </strong><br/>
+                <span id="summary">직업</span>
+            </p>
+            <p id="profileDetail">
+            <a href="https://github.com/jeongtae1">
+                https://github.com/jeongtae1
+            </a>
+            </p>
         </div>
         <div id="highlight_area">
             <div class="highlight">
@@ -43,6 +58,7 @@
                     😂
                 </div>
             </div>
+            <div></div>
         </div>
         <div id="stat_bar">
             <div class="stat">
@@ -58,8 +74,22 @@
                 999
             </div>
         </div>
-        <div>
-            아이콘
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
+            </div>
+            <div>
+                <i class="fas fa-film"></i>
+            </div>
+            <div>
+                <i class="far fa-play-circle"></i>
+            </div>
+            <div>
+                <i class="far fa-bookmark"></i>
+            </div>
+            <div>
+                <i class="far fa-user-tag"></i>
+            </div>
         </div>
         <div>
             <div class="thumbnail_grid">
